@@ -3,7 +3,7 @@ pipeline{
 
     environment{
         IMAGE_NAME: 'tech365/moviepulse'
-        IMAGE_TAGE: 'v1'
+        IMAGE_TAG: 'v1'
         DOCKER_CREDENTIALS_ID = "dockerlogin"
     }
 
