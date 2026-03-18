@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     environment{
-        IMAGE_NAME= 'tech365/moviepulse'
+        IMAGE_NAME= 'tech365/mymoviepulse'
         IMAGE_TAG= 'v1'
         DOCKER_CREDENTIALS_ID = "dockerlogin"
     }
